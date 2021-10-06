@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31717.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CockCs", "CockCs.csproj", "{6086E0CB-5F70-4C05-9210-425069259FF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Debug|x64.ActiveCfg = Debug|x64
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Debug|x64.Build.0 = Debug|x64
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Release|x64.ActiveCfg = Release|x64
+		{6086E0CB-5F70-4C05-9210-425069259FF8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F76DFD85-E6D8-43B2-A06A-A5135F1D4E23}
+	EndGlobalSection
+EndGlobal
