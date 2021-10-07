@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace CockCs
 {
-    internal class Net
+    public class Net
     {
         public static string webstring;
         public static bool WebStringTrue;

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace CockCs
 {
-    internal class fstream
+    public class fstream
     {
         public static bool FolderExists;
         public static bool FileExists;

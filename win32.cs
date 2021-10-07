@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CockCs
 {
-    internal class win32
+    public class win32
     {
         /*This class basically lets you add a console to a winform project
          *This is normally not an option under the project settings but CockCs is just built different man.

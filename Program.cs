@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace CockCs
 {
-    internal class Program
+    public class Program
     {
         public static void Message(string text, string label)
         {
