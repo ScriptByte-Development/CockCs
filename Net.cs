@@ -58,5 +58,12 @@ namespace CockCs
                 MessageBox.Show(ex.Message, Application.ProductName);
             }
         }
+
+        public static void DownloadFile(string url, string fileName)
+        {
+            WebClient client = new WebClient();
+            WebClient myWebClient = new WebClient();
+            myWebClient.DownloadFile(url, fileName);
+        }
     }
 }
