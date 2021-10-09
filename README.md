@@ -5,6 +5,9 @@
 * 'Could not load file or assembly 'CockCs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.'
 **If you get this errors its because your program is not set to 64, click Any CPU then click config manager then click Active Solution Platform then select New then select 64 and set copy settings to none**
 
+# Help
+**Make a pull request and either I will answer it directly or a member of ScriptByte who understands Csharp will answer your pull request**
+
 # Auth class
 **This uses Auth.gg, I recommend you either look at the source to understand how to use it or you check out a youtube tutorial, I will not be going over how to use, there's no comments for it in the code and pull requests for it will be removed**
 
