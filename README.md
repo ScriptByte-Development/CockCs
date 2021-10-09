@@ -1,5 +1,5 @@
 # CockCs
-**CockCs is a csharp library meant to speed up your programming, it will include commonly used functions and is open source!**
+**CockCs is a csharp library meant to speed up your programming, it will include commonly used functions and some more higher level fuynctions, and is open source!**
 
 # Errors
 * 'Could not load file or assembly 'CockCs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. An attempt was made to load a program with an incorrect format.'
