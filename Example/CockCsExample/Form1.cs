@@ -42,7 +42,7 @@ namespace CockCsExample
 
         private void compareFile_Click(object sender, EventArgs e)
         {
-            if (CockCs.fstream.FileCompare(@"C:\Users\bossw\source\repos\CockCs\bin\x64\Release\CockCs.dll", @"C:\Users\bossw\source\repos\CockCs\bin\x64\Debug\CockCs.dll"))
+            if (CockCs.fstream.FileCompare(@"C:\Users\myuser\source\repos\CockCs\bin\x64\Release\CockCs.dll", @"C:\Users\myuser\source\repos\CockCs\bin\x64\Debug\CockCs.dll"))
             {
                 MessageBox.Show("files are equal", Application.ProductName);
                 win32.Update(Application.ProductName, "Files are equal");
