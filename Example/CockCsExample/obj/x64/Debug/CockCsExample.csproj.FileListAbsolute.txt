@@ -1,0 +1,12 @@
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\bin\x64\Debug\CockCsExample.exe.config
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\bin\x64\Debug\CockCsExample.exe
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\bin\x64\Debug\CockCsExample.pdb
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\bin\x64\Debug\CockCs.dll
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\bin\x64\Debug\Siticone.UI.dll
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.csproj.AssemblyReference.cache
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.Form1.resources
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.Properties.Resources.resources
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.csproj.GenerateResource.cache
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.csproj.CoreCompileInputs.cache
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.exe
+C:\Users\bossw\source\repos\CockCsExample\CockCsExample\obj\x64\Debug\CockCsExample.pdb
