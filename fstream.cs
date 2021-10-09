@@ -81,54 +81,47 @@ namespace CockCs
         //return a value of something else if the files are not the same.
         public static bool FileCompare(string file1, string file2)
         {
-            try
+            int file1byte;
+            int file2byte;
+            FileStream fs1;
+            FileStream fs2;
+
+            //check if the files were referenced
+            if (file1 == file2)
             {
-                int file1byte;
-                int file2byte;
-                FileStream fs1;
-                FileStream fs2;
+                //return true to indicate that the files are the same
+                return true;
+            }
 
-                //check if the files were referenced
-                if (file1 == file2)
-                {
-                    //return true to indicate that the files are the same
-                    return true;
-                }
+            //open the two files
+            fs1 = new FileStream(file1, FileMode.Open);
+            fs2 = new FileStream(file2, FileMode.Open);
 
-                //open the two files
-                fs1 = new FileStream(file1, FileMode.Open);
-                fs2 = new FileStream(file2, FileMode.Open);
-
-                // Check the file sizes
-                if (fs1.Length != fs2.Length)
-                {
-                    // Close the file
-                    fs1.Close();
-                    fs2.Close();
-
-                    //return false to indicate files are different
-                    return false;
-                }
-
-                //read and compare a byte from each file until either a non matching set of bytes is found or until the end of file1 is reached
-                do
-                {
-                    //read one byte from each file.
-                    file1byte = fs1.ReadByte();
-                    file2byte = fs2.ReadByte();
-                }
-                while ((file1byte == file2byte) && (file1byte != -1));
-                //close files
+            // Check the file sizes
+            if (fs1.Length != fs2.Length)
+            {
+                // Close the file
                 fs1.Close();
                 fs2.Close();
 
-                //return success of the comparison. file1byte if it is equal to file2byte
-                return ((file1byte - file2byte) == 0);
+                //return false to indicate files are different
+                return false;
             }
-            catch (Exception ex)
+
+            //read and compare a byte from each file until either a non matching set of bytes is found or until the end of file1 is reached
+            do
             {
-                MessageBox.Show(ex.Message, Application.ProductName);
+                //read one byte from each file.
+                file1byte = fs1.ReadByte();
+                file2byte = fs2.ReadByte();
             }
+            while ((file1byte == file2byte) && (file1byte != -1));
+            //close files
+            fs1.Close();
+            fs2.Close();
+
+            //return success of the comparison. file1byte if it is equal to file2byte
+            return ((file1byte - file2byte) == 0);
         }
 
         //example of how to use this
