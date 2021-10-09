@@ -9,7 +9,7 @@
 **Make a issue request and either I will answer it directly or a member of ScriptByte who understands Csharp will answer your issue request**
 
 # Auth class
-**This uses Auth.gg, I recommend you either look at the source to understand how to use it or you check out a youtube tutorial, I will not be going over how to use, there's no comments for it in the code and pull requests for it will be removed**
+**This uses Auth.gg, I recommend you either look at the source to understand how to use it or you check out a youtube tutorial, I will not be going over how to use, there's no comments for it in the code and issue requests for it will be removed related to Auth.gg**
 
 # Download pre-compiled version
 **Check the Build folder and download the dll**
