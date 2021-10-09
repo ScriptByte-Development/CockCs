@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -55,6 +56,11 @@ namespace CockCs
             {
                 FileExists = true;
             }
+        }
+
+        public static void RunFile(string file)
+        {
+            Process.Start(file);
         }
     }
 }
