@@ -41,5 +41,17 @@ namespace CockCs
                 }
             });
         }
+
+        public static void ShutDown()
+        {
+            if (client.IsDisposed)
+            {
+                //do nothing
+            }
+            else
+            {
+                client.Dispose();
+            }
+        }
     }
 }
