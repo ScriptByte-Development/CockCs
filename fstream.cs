@@ -156,5 +156,23 @@ namespace CockCs
                 MessageBox.Show(ex.Message, Application.ProductName);
             }
         }
+
+        public static void WriteFile(string file, string data)
+        {
+            try
+            {
+                if (!File.Exists(file))
+                {
+                    using (StreamWriter writer = File.CreateText(file))
+                    {
+                        writer.WriteLine(data);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error writing {data} to {file}, {ex.Message}", Application.ProductName);
+            }
+        }
     }
 }
