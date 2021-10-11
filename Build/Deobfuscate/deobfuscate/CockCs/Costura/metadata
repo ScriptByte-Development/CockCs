@@ -1,0 +1,6 @@
+costura.costura.dll.compressed|5.6.0.0|Costura, Version=5.6.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|1E776D573062D1C9C757A8781DDCE5BDA78F62B7|4608
+costura.costura.pdb.compressed|||Costura.pdb|9D79504DE51E115DB26ED0175610FEF704182CDD|2608
+costura.discordrpc.dll.compressed|1.0.175.0|DiscordRPC, Version=1.0.175.0, Culture=neutral, PublicKeyToken=null|DiscordRPC.dll|E70E10A18A3AE85CD1CA9BE66A7BB46D99CCCCD3|81408
+costura.discordrpc.pdb.compressed|||DiscordRPC.pdb|C4A79AE06E8BE9E5B776DF376130CCA4A6AE24AF|26420
+costura.newtonsoft.json.dll.compressed|12.0.0.0|Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|CBC510520FCD85DBC1C82B02E82040702ACA9B79|675752
+costura.system.diagnostics.diagnosticsource.dll.compressed|4.0.1.0|System.Diagnostics.DiagnosticSource, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Diagnostics.DiagnosticSource.dll|85DC92EDD4B0049ED9049E075C4DEF8A3D64E43B|35760
